@@ -122,6 +122,110 @@ add(4, 2, 6, 9, 8, 6)
     console.log(total)
 }
 add(); */
+/* function myFunction() {
+    let numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    console.log(numArray.includes(4))
+}
+myFunction() */
+
+/* const / lets */
+
+/* const example = 5;
+example = 10 */
+/* 
+let age = 21;
+age = 40
+
+console.log(age)
+ */
+
+
+
+/* import persoData from './app.js'
+console.log(persoData) */
+
+
+/* let example = 'david';
+
+console.log(example.padStart(10, 'dasd'))
+console.log(example.padEnd(10, 'a')) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
