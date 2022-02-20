@@ -64,3 +64,21 @@ export class Cat extends Animal {
 getTitle();
  */
 
+/* function resolveAfter3Seconds() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            resolve('resolved')
+        }, 3000);
+    })
+}
+
+async function getAsyncData() {
+    const result = await resolveAfter3Seconds();
+    console.log(result);
+}
+getAsyncData(); */
+
+
+/* const exampleSet = new Set([1, 1, 2, 2, 3, 6, 4, 8, 9, 7]);
+const anotherSet = new Set([...exampleSet]);
+console.log(anotherSet); */
