@@ -5,14 +5,14 @@ export default persoData; */
 
 
 /* OOP*/
-export class Animal {
+/* export class Animal {
     constructor(type, legs) {
         this.type = type;
         this.legs = legs;
     }
 
     makeNoise(sound = "Loud noise") {
-        console.log(sound)
+        console.log(sound);
     }
     get metaData() {
         return `Type: ${this.type}, ${this.legs}`
@@ -33,5 +33,34 @@ export class Cat extends Animal {
         console.log(sound)
     }
 }
+ */
 
+
+/* async and await */
+
+/* const apiUrl = 'https://jsonplaceholder.typicode.com/posts';
+ */
+/* function getTitle() {
+
+    fetch(apiUrl)
+        .then((response) => response.json()
+            .then((json) => {
+                console.log(json[0])
+            }).catch((err) => {
+                console.error();
+            })
+
+        )
+
+
+} */
+
+/* async function getTitle() {
+
+    const response = await fetch(apiUrl);
+    const json = await response.json();
+    console.log(json[0])
+}
+getTitle();
+ */
 
