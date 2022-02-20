@@ -152,11 +152,24 @@ console.log(example.padEnd(10, 'a')) */
 
 
 
+/* oop */
+
+import { Animal, Cat } from "./app.js";
 
 
+let cat = new Cat("lynx", 5);
+
+console.log(cat.metaData)
+
+cat.makeNoise()
 
 
+/* cat.legs = 6
+cat.makeNoise()
 
+console.log(cat.legs) */
+
+/* console.log(Animal.return10()) */
 
 
 
